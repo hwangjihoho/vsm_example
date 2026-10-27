@@ -6,22 +6,3 @@ desktop.ini
 Thumbs.db
 # 단위 테스트 결과 (make test)
 test-results/
-
-node_modules/
-.next/
-out/
-next-env.d.ts
-tsconfig.tsbuildinfo
-# phase execution outputs
-phases/**/phase*-output.json
-phases/**/step*-output.json
-# execute.py 실행 중 표시 (커밋하면 안 됨)
-phases/.running
-# harness map (generated)
-harness_map.html
-# python 캐시 (scope_check가 추적되지 않은 파일을 변경으로 보므로 반드시 무시)
-__pycache__/
-.pytest_cache/
-# harness kit 설치 부산물
-.harness-kit/
-*.bak.*
