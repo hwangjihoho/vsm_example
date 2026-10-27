@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "ask": [
+      "Bash(*scripts/execute.py*)",
+      "Bash(*scripts\\execute.py*)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/stop-verify.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
